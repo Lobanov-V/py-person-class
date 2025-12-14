@@ -27,4 +27,3 @@ def create_person_list(people: list[dict]) -> list[Person]:
             person.husband = Person.people[husband_name]
 
     return person_list
-
